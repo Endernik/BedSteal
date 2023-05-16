@@ -1,0 +1,17 @@
+name: BedSteal
+version: '${project.version}'
+main: me.smaks6.bedsteal.BedSteal
+depend: [ BedWars1058 ]
+authors: [ smaks6 ]
+softdepend:
+  - BedWars1058
+commands:
+  bedsteal:
+    permission: bedsteal.admin
+
+permissions:
+  bedsteal:
+    admin:
+      default: op
+      description: Permission for admin
+
